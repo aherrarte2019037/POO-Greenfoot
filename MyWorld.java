@@ -15,7 +15,7 @@ public class MyWorld extends World {
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
         MusicPlayer musicPlayer = new MusicPlayer("track_1.mp3");
-        //musicPlayer.play(true);
+        musicPlayer.play(true);
         addObject(new Bug(), Greenfoot.getRandomNumber(550), Greenfoot.getRandomNumber(350));
     }
 }

@@ -9,7 +9,7 @@ import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Bug extends BugMovement {
     public int movementSpeed = 4;
     public double movementSpeedDirection = 0;
-    public int mouseArea = 100;
+    public int mouseArea = 180;
     public boolean died = false;
 
     public void act() {
@@ -82,7 +82,6 @@ public class Bug extends BugMovement {
             died = true;
             setImage("ghost.png");
             Greenfoot.stop();
-
         }
     }
 }

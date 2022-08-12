@@ -33,7 +33,7 @@ public class MusicPlayer {
     /**
      * Detener la reproducción del sonido 
      */
-    public void play() { // put your code here
+    public void stop() { // put your code here
         sound.stop();
     }
 }

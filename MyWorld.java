@@ -12,10 +12,11 @@ public class MyWorld extends World {
      * 
      */
     public MyWorld() {
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
-        MusicPlayer musicPlayer = new MusicPlayer("track_1.mp3");
-        musicPlayer.play(true);
-        addObject(new Bug(), Greenfoot.getRandomNumber(550), Greenfoot.getRandomNumber(350));
+        //Crea una ventana con un tamaño de 706x370
+        super(706, 370, 1);
+        SoundButton soundButton = new SoundButton();
+        addObject(soundButton, 670, 30); 
+        addObject(new PlayButton(), 350, 190);
+        addObject(soundButton, 670, 30); 
     }
 }

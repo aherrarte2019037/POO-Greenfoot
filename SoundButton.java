@@ -12,7 +12,7 @@ public class SoundButton extends Actor {
 
     public SoundButton() {
         this.musicPlayer = new MusicPlayer("track_1.mp3");
-        //this.musicPlayer.play(true);
+        this.musicPlayer.play(true);
     }
 
     public void act() {
